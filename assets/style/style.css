@@ -1,0 +1,198 @@
+body {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  margin: 0;
+  padding: 8px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.app {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+.app div::nth-child(1) {
+  background-color: red;
+}
+
+.card-app {
+  background-color: #96f0e1;
+  color: black;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  width: 30vw;
+  border-radius: 8px;
+  -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+          box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+  margin: 20px;
+}
+
+.card-app__id {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1.5rem;
+  padding: 10px;
+}
+
+.card-app__title {
+  font-size: 1.3rem;
+  margin: 10px auto 20px;
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.card-app__text {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: justify;
+      -ms-flex-align: justify;
+          align-items: justify;
+  padding: 10px 20px 10px;
+  word-wrap: break-word;
+}
+
+.outter-search {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px;
+}
+
+.search {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 30%;
+  font-size: 1.5rem;
+  border: #96f0e1 2px solid;
+  min-width: 250px;
+}
+
+.search:focus {
+  outline: none;
+  border: #639e94 2px solid;
+}
+
+.btn-search {
+  background-color: #cff3ed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  text-decoration: none;
+  color: black;
+  text-transform: uppercase;
+  padding: 0 20px;
+  margin-left: 10px;
+}
+
+.btn-search:hover {
+  background-color: #639e94;
+  color: white;
+}
+
+.show {
+  display: block;
+}
+
+.hide {
+  display: none !important;
+}
+
+.btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  margin: 20px 0;
+}
+
+.btn__more {
+  text-decoration: none;
+  color: black;
+  background-color: #cff3ed;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 10px 20px;
+  text-transform: uppercase;
+}
+
+.btn__more:hover {
+  background-color: #639e94;
+  color: white;
+}
+
+@media only screen and (max-width: 900px) {
+  .card-app {
+    width: 80vw;
+  }
+  .outter-search {
+    -ms-flex-wrap: wrap;
+        flex-wrap: wrap;
+  }
+  .btn-search {
+    margin-top: auto;
+    padding: 10px 20px;
+  }
+}
+
+@media only screen and (max-width: 475.2px) {
+  .btn-search {
+    margin-top: 10px;
+  }
+}
+/*# sourceMappingURL=style.css.map */
